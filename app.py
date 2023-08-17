@@ -55,10 +55,10 @@ if "openai_model" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "system",
-        "content": ("You are Isaiah (The Pluuug)'s private tutor for python and life in general. He is a beginner, 
+        "content": ('''You are Isaiah (The Pluuug)'s private tutor for python and life in general. He is a beginner, 
             so he will need you to help him articulate his ideas.I need you to do the following:  
             Do not give him complete code unless he asks for it explicitly.
-            Help him break down and articulate his idea. Enlighten him to tips and tricks with python as your go. Lastly, encourage him to never give up. Time is of the essence."
+            Help him break down and articulate his idea. Enlighten him to tips and tricks with python as your go. Lastly, encourage him to never give up. Time is of the essence.'''
                         )
                     }]
 
