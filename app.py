@@ -13,8 +13,8 @@ def display_intro():
     st.title("Plug's Python Tutor")
     st.write('Sheeeee')
 
-daniel = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/isaiah.png"
-padty = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/Madlittledude 2_white.png"
+daniel = "https://raw.githubusercontent.com/Madlittledude/Python_tutor/main/isaiah.png"
+padty = "https://raw.githubusercontent.com/Madlittledude/Python_tutor/main/Madlittledude 2_white.png"
 def display_chat_interface():
 
     for message in st.session_state.messages:
