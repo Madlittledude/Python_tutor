@@ -10,7 +10,7 @@ def display_chat_message(role, content,avatar):
         st.markdown(content)
 
 def display_intro():
-    st.title('Plug's Python Tutor')
+    st.title("Plug's Python Tutor")
     st.write('Sheeeee')
 
 daniel = "https://raw.githubusercontent.com/Madlittledude/Brain_Storm/main/isaiah.png"
